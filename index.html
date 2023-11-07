@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>今日の花言葉占い</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Yuka Iwatsubo">
+        <meta name="discription" content="今日の花の花言葉を知って、一日を気持ちよく過ごしましょう">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css"/>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+      <div id="animations">
+        <figure id="clouds">
+          <img src="images/kumo1.png" alt="雲" class="clouds">
+          <img src="images/kumo2.png" alt="雲" class="clouds">
+          <img src="images/kumo3.png" alt="雲" class="clouds">
+        </figure>
+        <h1>今日の花言葉占い</h1>
+      </div>
+      <main>
+        
+        <h2>今日はどんな日になるかな？<br>気になるお花をクリックしてね</h2>
+
+        <div id="imagemap-wrapper">
+          <img src="images/image_map.png" usemap="#ImageMap" alt="気になるお花をクリックしてね" />
+          <map name="ImageMap">
+            <area shape="rect" coords="87,132,172,254" href="#" alt="サンダーソニア" title="サンダーソニア" />
+            <area shape="rect" coords="251,190,325,279" href="#" alt="クロユリ" title="クロユリ" />
+            <area shape="rect" coords="339,270,405,352" href="#" alt="カタクリ" title="カタクリ" />
+            <area shape="circle" coords="96,331,44" href="#" alt="ハス" title="ハス" />
+            <area shape="circle" coords="281,93,76" href="#" alt="リンゴの木" title="リンゴの木" />
+            <area shape="rect" coords="185,200,238,255" href="#" alt="イヌ" title="イヌ" />
+          </map>
+        </div>        
+
+        <div id="flowerslist-wrapper">
+          <h2>今日のお花一覧</h2>
+          <ul>
+            <li><a href=""><img src="images/flower_sandersonia.png" alt="サンダーソニア" width="50" height="50">サンダーソニア</a></li>
+            <li><a href=""><img src="images/flower_kuroyuri.png" alt="クロユリ" width="50" height="50">クロユリ</a></li>
+            <li><a href=""><img src="images/flower_katakuri.png" alt="カタクリ" width="50" height="50">カタクリ</a></li>
+            <li><a href=""><img src="images/flower_hasu.png" alt="ハス" width="50" height="50">ハス</a></li>
+          </ul>
+        </div>
+
+      </main>
+
+      <footer>
+        <small>2023-10 今日の花言葉占い</small>
+      </footer>
+      <script src="main.js"></script>
+    </body>
+</html>
